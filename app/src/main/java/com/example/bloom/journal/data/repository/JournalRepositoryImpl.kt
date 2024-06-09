@@ -6,6 +6,7 @@ import com.example.bloom.journal.domain.repository.JournalRepository
 import com.example.bloom.profile.data.models.Profile
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query
+import com.google.firebase.firestore.toObject
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
@@ -34,7 +35,7 @@ class JournalRepositoryImpl @Inject constructor() : JournalRepository {
         val currentCount = profileSnapshot.toObject(Profile::class.java)?.journalsCount ?: 0
         val newCount = currentCount + 1
 
-        val newProfile = Profile(newCount)
+        val newProfile = profileSnapshot.toObject(Profile::class.java)?.copy(journalsCount = newCount)?:""
         profileDocRef.set(newProfile).await()
 
         Result.Success(Unit)
