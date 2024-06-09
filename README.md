@@ -18,7 +18,7 @@ Here're some of the project's best features:
 *   A personalized chatbot Ember to offer immediate assistance and advice...a buddy who is always there for you
 *   For professional support the app facilitates connections with certified doctors ensuring users have access to expert help when needed.
 
-<h2>Project Screenshots:</h2>
+<h2>Project Screenshots📱:</h2>
 <p align="start">
 
 <img src="https://res.cloudinary.com/ddgeelsit/image/upload/v1717952054/bloom_screenshots/IMG-20240609-WA0029_dqlqkp.jpg" alt="project-screenshot" width="160px" >
@@ -67,7 +67,7 @@ Here're some of the project's best features:
 ```
 9. Build and run
   
-<h2>💻 Built with</h2>
+<h2>Built with 💻</h2>
 
 Technologies used in the project:
 
