@@ -58,7 +58,7 @@ Here're some of the project's best features:
 4. Paste ``` https://github.com/atmikgoswami/Bloom.git ```
 5. Open the project
 6. Create a Firebase project and add the ```google-services.json``` in the app directory of the project
-7. Grab your ```YOUR_GEMINI_API_KEY``` from [https://api-ninjas.com](https://aistudio.google.com/app/apikey)
+7. Grab your ```YOUR_GEMINI_API_KEY``` from [https://aistudio.google.com/app/apikey]
 8. Now, in your local.properties add the block
 ``` 
   GEMINI_API_KEY=YOUR_GEMINI_API_KEY
