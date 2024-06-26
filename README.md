@@ -7,6 +7,11 @@
 
 <p id="description">Bloom is a mental wellness and support app designed to provide comprehensive mental health resources and support to users. Our goal is to create a holistic platform that promotes mental well-being and fosters a supportive environment for all users.</p>
 
+## Installation ⬇️
+
+<a href="https://github.com/atmikgoswami/Bloom/releases/download/v1.0/bloom.1.0.apk"><img alt="Get it on GitHub" src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png" height=80px />
+
+
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
